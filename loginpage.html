@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+
+<body>
+    <div class="loginbox">
+        <div class="title">
+            Login To your Account
+        </div>
+        <form action="#">
+
+            <!-- this div is for role selection -->
+            <div class="role">
+                <label for="role">You Are : </label>
+                <select name="role" id="role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Faculty</option>
+                </select>
+            </div>
+
+            <!-- this div is for email and password -->
+            <div class="field">
+                <input type="text" name="email" required>
+                <label>Email Address</label>
+            </div>
+            <div class="field">
+                <input type="password" name="password" required>
+                <label>Password</label>
+            </div>
+
+            <!-- this div is for forgot password -->
+            <div class="pass-link">
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <!-- this is submit button -->
+            <div class="field">
+                <input type="submit" value="Login">
+            </div>
+
+            <!-- for signup link -->
+            <div class="signup-link">
+                Not a member? <a href="#">Signup now</a>
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>
