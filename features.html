@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - EduLink</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 500;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        .features-container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem 2rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .features-container h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #007bff;
+            text-align: center;
+        }
+        .features-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .features-list li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+        .features-list li img {
+            width: 50px;
+            height: 50px;
+            margin-right: 1rem;
+        }
+        .features-list li div {
+            max-width: calc(100% - 70px);
+        }
+        .features-list li h3 {
+            font-size: 1.2rem;
+            margin: 0 0 0.5rem;
+            color: #343a40;
+        }
+        .features-list li p {
+            font-size: 1rem;
+            color: #495057;
+            margin: 0;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">EduLink</div>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="loginpage.html">Log In</a>
+        </nav>
+    </header>
+
+    <div class="features-container">
+        <h1>Our Features</h1>
+        <ul class="features-list">
+            <li>
+                <!-- <img src="https://via.placeholder.com/50" alt="Easy Access Icon"> -->
+                <div>
+                    <h3>Easy Access</h3>
+                    <p>Access documents anytime, anywhere with our intuitive platform designed for seamless navigation.</p>
+                </div>
+            </li>
+            <li>
+                <!-- <img src="https://via.placeholder.com/50" alt="Secure Storage Icon"> -->
+                <div>
+                    <h3>Secure Storage</h3>
+                    <p>Your data is stored securely with encryption and advanced protection mechanisms to ensure privacy.</p>
+                </div>
+            </li>
+            <li>
+                <!-- <img src="https://via.placeholder.com/50" alt="Collaboration Icon"> -->
+                <div>
+                    <h3>Enhanced Collaboration</h3>
+                    <p>Facilitate communication and teamwork between students and faculty with collaborative tools.</p>
+                </div>
+            </li>
+            <li>
+                <!-- <img src="https://via.placeholder.com/50" alt="User-Friendly Interface Icon"> -->
+                <div>
+                    <h3>User-Friendly Interface</h3>
+                    <p>Designed with simplicity in mind, our platform ensures a hassle-free user experience for everyone.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 EduLink. All rights reserved.</p>
+    </footer>
+</body>
+</html>
