@@ -5,6 +5,7 @@ import Footer from "./components/Footer.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import SignUpPage from "./pages/SignUpPage.jsx";
+import MaterialsPage from "./pages/MaterialsPage.jsx";
 import './App.css'
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             
-            
+             <Route path="/materials" element={<MaterialsPage />} />
             
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignUpPage />} />

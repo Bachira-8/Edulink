@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./HeroSection.css";
 
 function HeroSection() {
+   const navigate = useNavigate();
   return (
     <section className="hero">
       <div className="hero-content">
@@ -11,7 +13,12 @@ function HeroSection() {
             Edullink simplifies academic file sharing, making it easy for students and faculty to upload, download, and manage documents securely and efficiently.
           </p>
           <div className="hero-actions">
-            <a href="#" className="hero-btn hero-btn-primary">Get Started</a>
+            <button 
+              onClick={() => navigate('/materials')} 
+              className="hero-btn hero-btn-primary"
+            >
+              Get Started
+            </button>
             <a href="#features" className="hero-btn">Learn More</a>
           </div>
         </div>
