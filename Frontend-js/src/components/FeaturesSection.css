@@ -1,0 +1,45 @@
+.features {
+  background: #fff;
+  padding: 4rem 0;
+}
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+.features-container h2 {
+  text-align: center;
+  color: #2563eb;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+.feature-card {
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: box-shadow 0.2s;
+}
+.feature-card:hover {
+  box-shadow: 0 4px 16px rgba(37,99,235,0.10);
+}
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.feature-card h3 {
+  color: #1e40af;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.feature-card p {
+  color: #333;
+  font-size: 1rem;
+}

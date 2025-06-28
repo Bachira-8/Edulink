@@ -1,0 +1,20 @@
+.about {
+  background: #f9fafb;
+  padding: 4rem 0;
+}
+.about-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 2rem;
+}
+.about-container h2 {
+  color: #2563eb;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.about-container p {
+  color: #333;
+  font-size: 1.1rem;
+}
