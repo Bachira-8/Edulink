@@ -15,7 +15,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={() => setMenuOpen(false)}>
-          Edullink
+          Edulink
         </Link>
         <button
           className={`navbar-toggle${menuOpen ? " open" : ""}`}
